@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilder</title>
+   <ul class="startMenulist">
+    <li> <a href="index.html"; class="startmenu" > Start</a></li>
+    <li> <a href="bilder.html"; class="startmenu" >Bilder</a></li>
+    <li> <a href="portfolio.html"; class="startmenu">Portfolio</a></li>
+    <li> <a href="minecraft.html"; class="startmenu" >Minecraft</a></li>
+   </ul>  
+    <link rel="stylesheet" href="desing.css">
+</head>
+<body>
+<h1 class="titel">Bilder</h1>
+<h1>Momentan nur Upload möglich</h1>
+<button onclick="window.location.href='bilder_upload.html'"; class="centerbutton" ; > Bilder Hochladen </button>
+<div class="gallery">
+    <?php
+    $dir = 'picturesdb/'; // Ordner mit den Bildern
+    $images = glob($dir . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+
+    foreach($images as $image) {
+        echo '<img src="' . $image . '" alt="Bild" style="width:200px;>
+</div>
+
+</body> 
+<footer>
+    <p class="Copyright">©Jonas Marty</p>
+</footer>
+</div>
+</html>
