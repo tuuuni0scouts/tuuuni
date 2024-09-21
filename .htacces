@@ -1,0 +1,7 @@
+ErrorDocument 500 /errors/500error.html
+ErrorDocument 401 /errors/401error.html
+ErrorDocument 404 /errors/404error.html
+AuthType Basic
+AuthName "Secured Zone"
+AuthUserFile /.htpasswd
+Require valid-user
