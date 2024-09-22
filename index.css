@@ -1,88 +1,93 @@
+
 /* Global Style*/
 h1 {
-    color:  white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-  
+  color:  white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+
 }
 h2 {
-  color:white;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
+color:white;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
 }
 p {
-  color:white;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
+color:white;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
 }
 
 .Copyright {
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
 body {
-  background-image: url(bilder/mountain-lines-minimal-8k-a3.jpg); center center fixed;
-  background-size: cover;
+background-image: url(bilder/mountain-lines-minimal-8k-a3.jpg); center center fixed;
+background-size: cover;
 }
 .titel {
-  padding-right: 95%;
-  margin-top: auto;
-  margin-left: auto;
-  height: 100vh;
+padding-right: 95%;
+margin-top: auto;
+margin-left: auto;
+height: 100vh;
 }
 
 /*Navbar*/
 
 .startmenu {
-    color:white;
-    text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-    margin: 20px;
+  color:white;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 20px;
 }
 .startMenulist {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline;
-    float: right;
-    display: flex;black
-    justify-content: flex-end;
-    text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  float: right;
+  display: flex;black
+  justify-content: flex-end;
+  text-decoration: none;
 
 }
 
 .startmenu:hover {
-  color: #8a2be2;
+color: #8a2be2;
 }
 
-  /*Buttons*/
-  button {
-    width: auto;
-    padding: 10px;
-    background-color: black;
-    color: white;
-    border: none;
-    cursor: pointer;
-    display: block;
-    margin: auto; 
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    border-radius: 40px 40px 40px 40px;
+/*Buttons Container*/
+.buttons-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+}
+
+/*Buttons*/
+button {
+width: auto;
+padding: 10px;
+background-color: black;
+color: white;
+border: none;
+cursor: pointer;
+margin: 10px 0; /* Add margin to separate buttons */
+border-radius: 40px;
 }
 
 button:hover {
-  background-color: #8a2be2;
+background-color: #8a2be2;
 }
-  
-  
-/*Mobile Desing*/
+
+/*Mobile Design*/
 @media screen and (max-width: 1100px) {
 
 }
